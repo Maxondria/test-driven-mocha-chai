@@ -26,7 +26,6 @@ describe('tools', () => {
         
 		it('should load Abraham Lincoln page', done => {
 			tools.LoadWiki({ first: 'Abraham', last: 'Lincoln' }, html => {
-                expect(html).to.be.ok; //check if defined
                 expect(html).to.be.equal('Mock Abraham Lincoln Page');
 				done();
 			});
