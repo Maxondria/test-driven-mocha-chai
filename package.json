@@ -3,7 +3,8 @@
     "mocha": "^6.1.4"
   },
   "devDependencies": {
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "nock": "^10.0.6"
   },
   "scripts": {
     "own": "sudo chmod -R u+rwX,g+rwX,o+rwX \"/Volumes/Dev Work/TDD/test-driven-mocha-chai\"",
