@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mocha": "^6.1.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  },
+  "scripts": {
+    "own": "sudo chmod -R u+rwX,g+rwX,o+rwX \"/Volumes/Dev Work/TDD/test-driven-mocha-chai\"",
+    "start": "mocha"
+  }
+}
